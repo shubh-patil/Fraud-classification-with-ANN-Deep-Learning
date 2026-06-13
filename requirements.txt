@@ -4,10 +4,7 @@ matplotlib
 seaborn
 imblearn
 streamlit
-nltk
-gensim
-tqdm
-tensorflow
+tensorflow==2.15.0
 keras
 datetime
 xlrd
