@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import joblib
-import tensorflow
 from tensorflow.keras.models import load_model
 
 #page structure
