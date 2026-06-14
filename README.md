@@ -38,29 +38,11 @@ The dataset used in this project is sourced from the [UCI Machine Learning Repos
 ### 3. Feature Engineering & Scaling
 * Implemented **One-Hot Encoding** on categorical features (`SEX`, `MARRIAGE`, `EDUCATION`).
 * Applied **StandardScaler** to continuous numeric tracking variables to adjust scalar ranges for linear and metric-based models.
-* *[Optional: Mention if you handled class imbalance here using SMOTE, Random Under Sampler, etc.]*
 
 ### 4. Model Training & Evaluation
 We implemented and cross-evaluated the following classification algorithms:
 * Logistic Regression
 * Random Forest Classifier
 * XGBoost / Gradient Boosting
-* *[Add/Remove models based on what you actually used]*
-
----
-
-## 📈 Experimental Results
-
-Given the class imbalance, performance was evaluated primarily using **F1-Score**, **ROC-AUC Score**, and the **Confusion Matrix** alongside baseline accuracy.
-
-| Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Logistic Regression** | 0.XX | 0.XX | 0.XX | 0.XX | 0.XX |
-| **Random Forest** | 0.XX | 0.XX | 0.XX | 0.XX | 0.XX |
-| **XGBoost (Best)** | **0.XX** | **0.XX** | **0.XX** | **0.XX** | **0.XX** |
-
-### Key Takeaways:
-* *[Example: Payment history in the immediate past month (PAY_1) proved to be the single most powerful feature metric predicting default propensity.]*
-* *[Example: Ensembling methods substantially outperformed individual linear models in tracking default variances.]*
 
 ---
